@@ -1,3 +1,46 @@
+# TASK LIST APP
+
+### User interface ###
+1- View HOME 
+
+<img width="523" height="1111" alt="image" src="https://github.com/user-attachments/assets/0887c506-d4b0-4781-ad28-0b1248275ffe" />
+
+2- View Task
+
+<img width="518" height="1128" alt="image" src="https://github.com/user-attachments/assets/50eb0197-55ef-43b3-81e6-d26cac7eb20c" />
+
+3- Modal Create Tasks
+
+<img width="521" height="1122" alt="image" src="https://github.com/user-attachments/assets/38e3e025-b7bc-4bb7-b3f7-16f182c2c234" />
+
+5- List Users
+
+<img width="531" height="1115" alt="image" src="https://github.com/user-attachments/assets/146d88ea-f146-4f9f-ba05-f14948b6cebb" />
+
+### Comandos Test ###
+# Ejecutar todos los tests
+npm test
+
+# Ejecutar tests en modo watch
+npm test -- --watch
+
+# Ejecutar tests con coverage
+npm test -- --coverage
+
+# Para Android
+npx react-native run-android
+
+# Para iOS (solo en macOS)
+npx react-native run-ios
+
+
+# ********************************************************************************************
+# ____________________________________________________________________________________________
+
+
+
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
