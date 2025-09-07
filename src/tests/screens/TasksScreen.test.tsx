@@ -30,8 +30,8 @@ describe('TasksScreen', () => {
       </Provider>
     );
 
-    expect(getByText('Mis Tareas (0)')).toBeTruthy();
-    expect(getByText('No hay tareas creadas')).toBeTruthy();
+    expect(getByText('My Tasks (0)')).toBeTruthy();
+    expect(getByText('No tasks created')).toBeTruthy();
     expect(getByTestId('add-task-button')).toBeTruthy();
   });
 
@@ -66,7 +66,7 @@ describe('TasksScreen', () => {
       </Provider>
     );
 
-    expect(getByText('Mis Tareas (1)')).toBeTruthy();
+    expect(getByText('My Tasks (1)')).toBeTruthy();
     expect(getByTestId('tasks-list')).toBeTruthy();
     expect(getByText('Tarea de prueba')).toBeTruthy();
   });
